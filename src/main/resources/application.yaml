@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: db_uploads
+      host: localhost
+      port: 27017
+      auto-index-creation: true
+    servlet:
+      multipart:
+        enabled: true
+        max-file-size: 200MB
+        max-request-size: 200MB
